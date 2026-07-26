@@ -876,6 +876,7 @@
             onclick="handleSubmit(this)">Send Enquiry</button>
         </div>
       </div>
+
     </section>
   </div>
 
@@ -942,10 +943,10 @@
   </footer>
 
   <!-- Floating Chat Button -->
-  <a href="#" class="chat-btn" onclick="showPage('contact'); return false;">
+  <!-- <a href="#" class="chat-btn" onclick="showPage('contact'); return false;">
     <i class="fas fa-comment-dots"></i>
     <span class="chat-tooltip">Instant Booking</span>
-  </a>
+  </a> -->
 
   <!-- Cookie Banner -->
   <div class="cookie-banner" id="cookieBanner">
@@ -958,7 +959,19 @@
       <button class="btn-cookie btn-accept" onclick="closeCookie()">Accept All</button>
     </div>
   </div>
-
+  <div class="concierge-whatsapp">
+    <span class="concierge-whatsapp__label">Chat with our concierge</span>
+    <a class="concierge-whatsapp__button" id="concierge-whatsapp-link" aria-label="Chat with us on WhatsApp"
+      target="_blank" rel="noopener">
+      <span class="concierge-whatsapp__ripple" aria-hidden="true"></span>
+      <svg class="concierge-whatsapp__icon" viewBox="0 0 24 24" aria-hidden="true">
+        <path
+          d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.148-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" />
+        <path
+          d="M20.52 3.449C18.24 1.245 15.24 0 12.045 0 5.463 0 .104 5.36.101 11.943c0 2.105.548 4.16 1.591 5.972L0 24l6.223-1.632a11.9 11.9 0 0 0 5.822 1.483h.005c6.582 0 11.942-5.361 11.945-11.944 0-3.191-1.24-6.19-3.475-8.458zM12.05 21.785h-.004a9.85 9.85 0 0 1-5.018-1.373l-.36-.214-3.696.969.986-3.603-.235-.37a9.815 9.815 0 0 1-1.51-5.25c.003-5.45 4.436-9.884 9.891-9.884 2.642 0 5.125 1.03 6.99 2.898a9.826 9.826 0 0 1 2.892 6.998c-.003 5.45-4.436 9.884-9.936 9.884z" />
+      </svg>
+    </a>
+  </div>
   <script src="./index.js"></script>
 </body>
 
